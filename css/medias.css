@@ -1,0 +1,57 @@
+/*----- Medias Queries -----*/
+@media (max-width:50rem){
+    .menu_hamburguer{
+        display: flex;
+    }
+
+    .menu_item{
+        --clip: 0;
+        overflow: hidden;
+    }
+    
+    .menu_links{
+        position: fixed;
+        max-width: 70%;
+        width: 100%;
+        top: 4.375rem;
+        right: 0;
+        bottom: 0;
+        background-color: #000000;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+        transform: translateX(100%);
+        margin-top: -0.2%;
+    }
+
+    .menu_links--show{
+        transform: unset;
+        width: 100%;
+    }
+
+    .menu_link{
+        padding: 1.5625rem 0;
+        padding-left: 1.875rem;
+        height: auto;
+    }
+
+    .menu_arrow{
+        margin-left: auto;
+        margin-right: 1.25rem;
+    }
+
+    .menu_nesting{
+        display: grid;
+        position: unset;
+        width: 100%;
+        transform: translateY(0);
+        height: 0;
+        transition: height .3s;
+    }
+
+    .menu_link--inside{
+        width: 90%;
+        margin-left: auto;
+        border-left: .0625rem solid #45D97B;
+    }
+}
