@@ -5,7 +5,7 @@
 }
 
 html > body{
-    background-color: ;
+    background-color: wheat;
 }
 
 /*----- Start Navbar Style -----*/
@@ -13,6 +13,9 @@ html > body{
     background-color: #000000;
     height: 4.375rem;
     position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     width: 100%;
     max-width: 100%;
 }
@@ -122,3 +125,12 @@ html > body{
     z-index: 1500;
 }
 /*----- End Navbar Style -----*/
+
+.container-fluid{
+    margin: 7% auto !important;
+}
+
+.company{
+    margin-top: 2%;
+    padding: 5%;
+}
