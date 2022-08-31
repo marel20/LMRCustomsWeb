@@ -25,6 +25,7 @@ html > body{
     left: 0;
     width: 100%;
     max-width: 100%;
+    z-index: 3000 !important;
 }
 
 .menu_container{
@@ -43,7 +44,6 @@ html > body{
     display: flex;
     background-color: #000000;
     margin-top: 1%;
-    z-index: 1500;
 }
 
 .menu_item{
@@ -129,7 +129,7 @@ html > body{
     position: fixed;
     bottom: 3.125rem;
     right: 1.25rem;
-    z-index: 1500;
+    z-index: 1500 !important;
 }
 /*----- End Navbar Style -----*/
 
@@ -140,5 +140,8 @@ html > body{
 .company{
     margin-top: 2%;
     padding: 5%;
+    text-align: justify !important;
+    align-items: center;
 }
+
 
