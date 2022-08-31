@@ -55,4 +55,7 @@
         border-left: .0625rem solid #45D97B;
     }
 
+    .headline{
+        background-image: url('../assets/img/aduana2.png');
+    }
 }

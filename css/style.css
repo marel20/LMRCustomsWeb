@@ -5,13 +5,13 @@
 }
 
 html > body{
-    background-color: wheat;
+    background-color: #F0F8FF;
 }
 
 .row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -133,15 +133,58 @@ html > body{
 }
 /*----- End Navbar Style -----*/
 
+.headline{
+    background-image: url('../assets/img/aduana.png');
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    margin-top: 4.7%;
+}
+
+section article div img{
+    max-width: 100%;
+}
+
 .container-fluid{
-    margin: 7% auto !important;
+    margin: auto !important;
+}
+
+.alignContent{
+    margin-top: 1%;
+    padding: 6% 3%;
+    text-align: justify !important;
+    align-items: center;
 }
 
 .company{
-    margin-top: 2%;
-    padding: 5%;
-    text-align: justify !important;
-    align-items: center;
+    background-color: #B22222;
+    color: #FFFFFF;
+}
+
+.services{
+    background-color: ;
+}
+
+.exportation{
+
+}
+
+.importation{
+
+}
+
+.foreign__trade{
+
+}
+
+.logistics{
+
+}
+
+.otherServices{
+
 }
 
 
