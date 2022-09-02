@@ -6,6 +6,7 @@
 
 html > body{
     background-color: #F0F8FF;
+    overflow-x: hidden;
 }
 
 .row{
@@ -15,9 +16,18 @@ html > body{
     align-items: center;
 }
 
+.visible{
+    display: flex !important;
+    visibility: visible !important;
+}
+
+.hidden{
+    display: none !important;
+    visibility: hidden !important;
+}
 /*----- Start Navbar Style -----*/
 .menu{
-    background-color: #000000;
+    background-color: #213242;
     height: 4.375rem;
     position: fixed;
     top: 0;
@@ -42,7 +52,7 @@ html > body{
     height: 100%;
     transition: transform .5s;
     display: flex;
-    background-color: #000000;
+    background-color: #213242;
     margin-top: 1%;
 }
 
@@ -56,11 +66,11 @@ html > body{
 
 .menu_item--active{
     --transform: rotate(0);
-    --background: #45D97B;
+    --background: #213242;
 }
 
 .menu_item--show{
-    background-color: #000000;
+    background-color: #213242;
 }
 
 .menu_item:hover{
@@ -77,23 +87,23 @@ html > body{
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color: #000000;
+    background-color: #213242;
 }
 
 .menu_link{
-    color: #45D97B;
+    color: #FFFFFF;
     font-weight: bold;
     text-decoration: none;
     padding: 0 1.875rem;
     display: flex;
     height: 100%;
     align-items: center;
-    background-color: #000000;
+    background-color: #213242;
 }
 
 .menu_link:hover{
-    background-color: #45D97B;
-    color: #000000;
+    background-color: #00000050;
+    color: #FFFFFF;
 }
 
 .menu_arrow{
@@ -108,7 +118,7 @@ html > body{
 }
 
 .menu_link--inside:hover{
-    background-color: #45D97B;
+    background-color: #00000050;
 }
 
 .menu_hamburguer{
@@ -152,7 +162,7 @@ section article div img{
 }
 
 .alignContent{
-    margin-top: 1%;
+    margin: 1% auto 0 auto;
     padding: 6% 3%;
     text-align: justify !important;
     align-items: center;
@@ -164,27 +174,44 @@ section article div img{
 }
 
 .services{
-    background-color: ;
+    background-color: #EA9247;
 }
 
 .exportation{
-
+    background-color: #00000020;
 }
 
 .importation{
-
+    background-color: #00000020;
 }
 
 .foreign__trade{
-
+    background-color: #fdec00b9;
 }
 
 .logistics{
-
+    background-color: #fdec00b9;
 }
 
 .otherServices{
+    background-color: #00000020;
+}
 
+.contact{
+    background-color: #FF8000;
+}
+
+.footer{
+    
+}
+
+.up{
+    position: fixed;
+    line-height: 64px;
+    bottom: 100px;
+    right: 30px;
+    text-align: center;
+    z-index: 100;
 }
 
 

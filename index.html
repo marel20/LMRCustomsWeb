@@ -10,6 +10,7 @@
     <link rel="icon" href="assets/logo/logo.png" type="logo" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/medias.css" />
+    <link rel="stylesheet" type="text/css" href="css/aos.css" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -21,11 +22,11 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
     <title>LMR CUSTOMS S.R.L.</title>
   </head>
-  <body>
+  <body id="header">
     <header>
       <nav class="menu">
         <section class="menu_container">
-          <div class="menu_logo">
+          <div class="menu_logo" data-aos="zoom-out-down">
             <img
               src="assets/logo/logo.png"
               style="width: 10%; cursor: pointer"
@@ -34,15 +35,15 @@
           </div>
 
           <ul class="menu_links">
-            <li class="menu_item">
+            <li class="menu_item" data-aos="fade-left">
               <a href="#headline" class="menu_link">Inicio</a>
             </li>
 
-            <li class="menu_item menu_item--show">
+            <li class="menu_item menu_item--show" data-aos="fade-left">
               <a href="#company" class="menu_link">La Empresa</a>
             </li>
 
-            <li class="menu_item menu_item--show">
+            <li class="menu_item menu_item--show" data-aos="fade-right">
               <a href="#services" class="menu_link"
                 >Servicios
                 <img
@@ -84,7 +85,7 @@
               </ul>
             </li>
 
-            <li class="menu_item">
+            <li class="menu_item" data-aos="fade-right">
               <a href="#contact" class="menu_link">Contacto</a>
             </li>
           </ul>
@@ -100,7 +101,7 @@
             />
           </div>
           -->
-          <div class="menu_hamburguer">
+          <div class="menu_hamburguer" data-aos="zoom-out-up">
             <img
               src="assets/icons/menu.png"
               class="menu_img"
@@ -110,7 +111,11 @@
         </section>
       </nav>
     </header>
-    <div id="headline" class="col-lg-12 col-md-12 mb-4 col-12">
+    <div
+      id="headline"
+      class="col-lg-12 col-md-12 mb-4 col-12"
+      data-aos="zoom-out-down"
+    >
       <!-- Background image -->
       <div class="headline p-5 bg-image">
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.068)"></div>
@@ -118,9 +123,9 @@
       <!-- Background image -->
     </div>
     <div class="container-fluid">
-      <section id="company">
-        <article class="company alignContent row">
-          <div class="col-lg-6 col-md-6 mb-4 col-12">
+      <section id="company" class="col-lg-12 col-md-12 mb-4 col-12">
+        <article class="company alignContent row" data-aos="fade-right">
+          <div class="col-lg-6 col-md-6 mb-4 col-12" data-aos="fade-up">
             <h1>LMR - NUESTRA EMPRESA</h1>
             <p>
               LMR CUSTOMS S.R.L. es una empresa que se dedica a brindar
@@ -157,7 +162,7 @@
               brindando un servicio integral y de calidad.
             </p>
           </div>
-          <div class="col-lg-6 col-md-6 mb-4 col-12">
+          <div class="col-lg-6 col-md-6 mb-4 col-12" data-aos="fade-down">
             <img
               style="height: 70vh"
               src="assets/img/asesoramiento3.jpg"
@@ -166,8 +171,12 @@
           </div>
         </article>
 
-        <div id="services" class="services alignContent">
-          <div>
+        <article
+          id="services"
+          class="row services alignContent"
+          data-aos="fade-right"
+        >
+          <div class="col-lg-12 col-md-12 mb-4 col-12">
             <h2>SERVICIOS</h2>
             <p>
               Contamos con personal altamente capacitado para brindar un
@@ -178,13 +187,17 @@
               operaciones.
             </p>
           </div>
-        </div>
+        </article>
 
-        <article id="exportation" class="exportation alignContent row">
-          <div class="col-lg-4 col-md-4 mb-4 col-12">
+        <article
+          id="exportation"
+          class="visible exportation alignContent row"
+          data-aos="fade-right"
+        >
+          <div class="col-lg-4 col-md-4 mb-4 col-12" data-aos="fade-down">
             <img style="max-width: 80%" src="assets/logo/logo.png" alt="" />
           </div>
-          <div class="col-lg-8 col-md-8 mb-4 col-12">
+          <div class="col-lg-8 col-md-8 mb-4 col-12" data-aos="fade-up">
             <h2>EXPORTACIÓN</h2>
             <p>
               Inscripción en el Registro de Exportadores. Confección de la
@@ -200,8 +213,36 @@
           </div>
         </article>
 
-        <article id="importation" class="importation alignContent row">
-          <div class="col-lg-8 col-md-8 mb-4 col-12">
+        <article
+          id="exportation"
+          class="hidden exportation alignContent row"
+          data-aos="fade-right"
+        >
+          <div class="col-lg-8 col-md-8 mb-4 col-12" data-aos="fade-up">
+            <h2>EXPORTACIÓN</h2>
+            <p>
+              Inscripción en el Registro de Exportadores. Confección de la
+              documentación aduanera correspondiente (Factura de exportación,
+              lista de empaque, terceros organismos, etc.) a partir de la
+              información suministrada por el exportador, y corroborando el
+              cumplimiento de todos los requerimientos para el ingreso al país
+              del comprador. Tramitación de Certificados de Origen y Certificado
+              de Origen Digital del Mercosur. Análisis y armado de costo y
+              precios de exportación. Despacho de Aduana de exportación.
+              Depósitos Fiscales.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4 col-12" data-aos="fade-down">
+            <img style="max-width: 80%" src="assets/logo/logo.png" alt="" />
+          </div>
+        </article>
+
+        <article
+          id="importation"
+          class="importation alignContent row"
+          data-aos="fade-right"
+        >
+          <div class="col-lg-8 col-md-8 mb-4 col-12" data-aos="fade-up">
             <h2>IMPORTACIÓN</h2>
             <p>
               Inscripción en el Registro de Importadores Investigación previa de
@@ -214,16 +255,20 @@
               depósito del cliente.
             </p>
           </div>
-          <div class="col-lg-4 col-md-4 mb-4 col-12">
+          <div class="col-lg-4 col-md-4 mb-4 col-12" data-aos="fade-down">
             <img style="max-width: 80%" src="assets/logo/logo.png" alt="" />
           </div>
         </article>
 
-        <article id="foreign__trade" class="foreign__trade alignContent row">
-          <div class="col-lg-4 col-md-4 mb-4 col-12">
+        <article
+          id="foreign__trade"
+          class="visible foreign__trade alignContent row"
+          data-aos="fade-right"
+        >
+          <div class="col-lg-4 col-md-4 mb-4 col-12" data-aos="fade-down">
             <img style="max-width: 80%" src="assets/logo/logo.png" alt="" />
           </div>
-          <div class="col-lg-8 col-md-8 mb-4 col-12">
+          <div class="col-lg-8 col-md-8 mb-4 col-12" data-aos="fade-up">
             <h2>DEPARTAMENTO DE COMERCIO EXTERIOR</h2>
             <p>
               Con una estructura capacitada y responsable, ofrecemos a nuestros
@@ -242,8 +287,39 @@
           </div>
         </article>
 
-        <article id="logistics" class="logistics alignContent row">
-          <div class="col-lg-6 col-md-6 mb-4 col-12">
+        <article
+          id="foreign__trade"
+          class="hidden foreign__trade alignContent row"
+          data-aos="fade-right"
+        >
+          <div class="col-lg-8 col-md-8 mb-4 col-12" data-aos="fade-up">
+            <h2>DEPARTAMENTO DE COMERCIO EXTERIOR</h2>
+            <p>
+              Con una estructura capacitada y responsable, ofrecemos a nuestros
+              clientes, la posibilidad de tercerizar a través de LMR Customs
+              S.R.L., el departamento de comercio exterior, ofreciendo un
+              servicio de excelencia, desde el embarque de la mercadería hasta
+              su entrega, sea de importación o exportación. Este servicio otorga
+              beneficios a la empresa que lo toma, tales como, ahorro económico,
+              seguridad en el proceso de impo/expo, y la tranquilidad de saber
+              que dicha área tan importante de la empresa se encuentra en manos
+              de profesionales del sector. De esta manera ofrecemos a las pymes
+              la posibilidad de sumergirse en el comercio exterior sin la
+              necesidad de ampliar su estructura con los costos que esto
+              implica.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4 col-12" data-aos="fade-down">
+            <img style="max-width: 80%" src="assets/logo/logo.png" alt="" />
+          </div>
+        </article>
+
+        <article
+          id="logistics"
+          class="logistics alignContent row"
+          data-aos="fade-rigth"
+        >
+          <div class="col-lg-6 col-md-6 mb-4 col-12" data-aos="fade-up">
             <h2>LOGÍSTICA</h2>
             <p>
               Estamos asociados a empresas de transportes nacionales e
@@ -252,7 +328,7 @@
               responsabilidad que nos caracteriza.
             </p>
           </div>
-          <div class="col-lg-6 col-md-6 mb-4 col-12">
+          <div class="col-lg-6 col-md-6 mb-4 col-12" data-aos="fade-down">
             <img
               style="width: 100%"
               src="assets/img/logistica internacional.jpg"
@@ -261,11 +337,15 @@
           </div>
         </article>
 
-        <article id="otherServices" class="otherServices alignContent row">
-          <div class="col-lg-4 col-md-4 mb-4 col-12">
+        <article
+          id="otherServices"
+          class="visible otherServices alignContent row"
+          data-aos="fade-right"
+        >
+          <div class="col-lg-4 col-md-4 mb-4 col-12" data-aos="fade-down">
             <img style="max-width: 80%" src="assets/logo/logo.png" alt="" />
           </div>
-          <div class="col-lg-8 col-md-8 mb-4 col-12">
+          <div class="col-lg-8 col-md-8 mb-4 col-12" data-aos="fade-up">
             <h2>Otros Servicios</h2>
             <p>
               Ofrecemos a nuestros clientes la posibilidad de tercerizar el
@@ -282,11 +362,58 @@
             </p>
           </div>
         </article>
+
+        <article
+          id="otherServices"
+          class="hidden otherServices alignContent row"
+          data-aos="fade-right"
+        >
+          <div class="col-lg-8 col-md-8 mb-4 col-12" data-aos="fade-up">
+            <h2>Otros Servicios</h2>
+            <p>
+              Ofrecemos a nuestros clientes la posibilidad de tercerizar el
+              departamento de comercio exterior, ofreciendo un servicio de
+              excelencia, haciéndonos cargo desde el embarque de la mercadería
+              hasta su entrega, sea de importación o exportación. Este servicio
+              otorga beneficios a la empresa que lo toma, tales como, ahorro
+              económico, seguridad en el proceso de importación/exportación, y
+              la tranquilidad de saber que dicha área tan importante de la
+              empresa se encuentra en manos de profesionales del sector. De esta
+              manera ofrecemos a las pymes la posibilidad de sumergirse en el
+              comercio exterior sin la necesidad de ampliar su estructura con un
+              gran ahorro no solo económico sino también de tiempo.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4 col-12" data-aos="fade-down">
+            <img style="max-width: 80%" src="assets/logo/logo.png" alt="" />
+          </div>
+        </article>
       </section>
     </div>
 
-    <div id="contact" class="alignContent row col-lg-12 col-md-12 mb-4 col-12">
-      <div class="col-lg-6 col-md-6 mb-4 col-12">
+    <div id="whatsapp" class="btnWsp">
+      <a href="https://wa.me/+5493416653940" class="btn-wsp" target="_blank">
+        <i class="icon-whatsapp"></i>
+        <img
+          src="assets/icons/whatsapp.png"
+          style="width: 3rem"
+          alt="logowsp"
+        />
+      </a>
+    </div>
+
+    <div id="up" class="up">
+      <a href="#header">
+        <img src="assets/icons/arrowBlack.png" alt="arriba" />
+      </a>
+    </div>
+
+    <div id="contact" class="contact alignContent row" data-aos="fade-rigth">
+      <div
+        style="margin: auto"
+        class="col-lg-6 col-md-6 mb-4 col-12"
+        data-aos="fade-down"
+      >
         <form>
           <!-- Name input -->
           <div class="row mb-4">
@@ -333,12 +460,15 @@
         </form>
       </div>
 
-      <div class="row col-lg-6 col-md-6 mb-4 col-12 text-center">
+      <div
+        style="margin: auto"
+        class="row col-lg-6 col-md-6 mb-4 col-12"
+        data-aos="fade-up"
+      >
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13406.096193669282!2d-61.1623478!3d-32.8578514!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32fd6b9d2900989!2sLMR%20CUSTOMS%20S.R.L.%20Estudio%20Aduanero%20y%20Comercio%20Exterior!5e0!3m2!1ses!2sar!4v1661220912627!5m2!1ses!2sar"
           width="600"
           height="450"
-          style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
@@ -346,7 +476,10 @@
       </div>
     </div>
 
-    <footer class="text-center text-white" style="background-color: #00000073">
+    <footer
+      class="footer text-center text-white"
+      style="background-color: #00000073"
+    >
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
@@ -418,5 +551,9 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

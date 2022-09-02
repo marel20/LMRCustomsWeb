@@ -1,5 +1,15 @@
 /*----- Medias Queries -----*/
 @media (max-width:50rem){
+    .visible{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    
+    .hidden{
+        display: block !important;
+        visibility: visible !important;
+    }
+
     .menu_hamburguer{
         display: flex;
     }
@@ -16,7 +26,7 @@
         top: 4.375rem;
         right: 0;
         bottom: 0;
-        background-color: #000000;
+        background-color: #213242;
         overflow-y: auto;
         display: grid;
         grid-auto-rows: max-content;
@@ -52,7 +62,7 @@
     .menu_link--inside{
         width: 90%;
         margin-left: auto;
-        border-left: .0625rem solid #45D97B;
+        border-left: .0625rem solid #FFFFFF;
     }
 
     .headline{
