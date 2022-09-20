@@ -146,11 +146,11 @@ html > body{
 .headline{
     background-image: url('../assets/img/aduana.png');
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover !important;
-    margin-top: 4.7%;
+    margin-top: 2%;
 }
 
 section article div img{
@@ -171,6 +171,7 @@ section article div img{
 .company{
     background-color: #B22222;
     color: #FFFFFF;
+    margin-top: -1.7% !important;
 }
 
 .services{
@@ -186,11 +187,11 @@ section article div img{
 }
 
 .foreign__trade{
-    background-color: #fdec00b9;
+    background-color: #00000020;
 }
 
 .logistics{
-    background-color: #fdec00b9;
+    background-color: #00000020;
 }
 
 .otherServices{
@@ -199,12 +200,22 @@ section article div img{
 
 .contact{
     background-color: #FF8000;
+    margin-top: -1.7% !important;
 }
 
-.footer{
-    
+form button{
+    background-color: #213242 !important;
+    letter-spacing: 3px !important;
 }
 
+form label{
+    color: #FFFFFF !important;
+    letter-spacing: 2px !important;
+}
+
+form input[type]:focus{
+    outline: none !important;
+}
 .up{
     position: fixed;
     line-height: 64px;

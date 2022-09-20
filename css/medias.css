@@ -68,4 +68,12 @@
     .headline{
         background-image: url('../assets/img/aduana2.png');
     }
+
+    .company{
+        margin-top: -6.7% !important;
+    }
+
+    .contact{
+        margin-top: -6.7% !important;
+    }
 }
