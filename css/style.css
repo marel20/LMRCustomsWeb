@@ -178,6 +178,7 @@ section article div img{
 }
 
 .container-fluid{
+    max-width: 100%;
     margin: auto !important;
 }
 
