@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Quicksand&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
 }
 
 html > body{
@@ -28,7 +33,7 @@ html > body{
 /*----- Start Navbar Style -----*/
 .menu{
     background-color: #213242;
-    height: 4.375rem;
+    height: 14vh;
     position: fixed;
     top: 0;
     right: 0;
@@ -143,6 +148,22 @@ html > body{
 }
 /*----- End Navbar Style -----*/
 
+section h1, section h2{
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    color: #000000 !important;
+    font-size: 60px;
+    margin-bottom: 5%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+section p{
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
 .headline{
     background-image: url('../assets/img/aduana.png');
     width: 100%;
@@ -168,6 +189,10 @@ section article div img{
     align-items: center;
 }
 
+.bg-services{
+    background-color: #00000020;
+}
+
 .company{
     background-color: #B22222;
     color: #FFFFFF;
@@ -179,23 +204,31 @@ section article div img{
 }
 
 .exportation{
-    background-color: #00000020;
+    /* background-color: #00000020; */
 }
 
 .importation{
-    background-color: #00000020;
+    /* background-color: #00000020; */
+}
+
+.customs_brokers{
+    /* background-color: #00000020; */
+}
+
+.customs_transport_agent{
+    /* background-color: #00000020; */
 }
 
 .foreign__trade{
-    background-color: #00000020;
+    /* background-color: #00000020; */
 }
 
 .logistics{
-    background-color: #00000020;
+    /* background-color: #00000020; */
 }
 
 .otherServices{
-    background-color: #00000020;
+    /* background-color: #00000020; */
 }
 
 .contact{
