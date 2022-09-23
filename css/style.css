@@ -203,11 +203,6 @@ section article div img{
     justify-content: center;
 }
 
-.services iframe{
-    display: flex;
-    margin: 0 auto !important;
-}
-
 .contact{
     background-color: #FF8000;
     margin-top: -1.7% !important;
