@@ -167,11 +167,10 @@ section p{
 .headline{
     background-image: url('../assets/img/aduana.png');
     width: 100%;
-    height: 100vh;
+    height: 100vh !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover !important;
-    margin-top: 2%;
 }
 
 section article div img{
@@ -203,34 +202,6 @@ section article div img{
     background-color: #EA9247;
 }
 
-.exportation{
-    /* background-color: #00000020; */
-}
-
-.importation{
-    /* background-color: #00000020; */
-}
-
-.customs_brokers{
-    /* background-color: #00000020; */
-}
-
-.customs_transport_agent{
-    /* background-color: #00000020; */
-}
-
-.foreign__trade{
-    /* background-color: #00000020; */
-}
-
-.logistics{
-    /* background-color: #00000020; */
-}
-
-.otherServices{
-    /* background-color: #00000020; */
-}
-
 .contact{
     background-color: #FF8000;
     margin-top: -1.7% !important;
@@ -249,6 +220,9 @@ form label{
 form input[type]:focus{
     outline: none !important;
 }
+
+
+
 .up{
     position: fixed;
     line-height: 64px;
