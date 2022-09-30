@@ -196,7 +196,7 @@ section article div img{
 .company{
     background-color: #B22222;
     color: #FFFFFF;
-    margin-top: -1.7% !important;
+    margin-top: -23px !important;
 }
 
 .services{
@@ -206,7 +206,7 @@ section article div img{
 
 .contact{
     background-color: #FF8000;
-    margin-top: -1.7% !important;
+    margin-top: -23px !important;
 }
 
 form button{
