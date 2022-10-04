@@ -212,6 +212,7 @@ section article div img{
 form button{
     background-color: #213242 !important;
     letter-spacing: 3px !important;
+    border-radius: 10px !important;
 }
 
 form label{
