@@ -7,6 +7,8 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 14vh;
 }
 
 html > body{
@@ -197,6 +199,14 @@ section article div img{
     background-color: #B22222;
     color: #FFFFFF;
     margin-top: -23px !important;
+}
+.company h3{
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    color: #000000 !important;
+    margin-bottom: 5%;
+    text-align: center;
+    letter-spacing: 3px;
 }
 
 .services{
