@@ -47,12 +47,14 @@
 
 })();
 
-let btnUp = window.pageYOffset;
-window.onscroll = function() {
-    let displace = window.pageYOffset;
-    if (btnUp < displace){
-        this.document.getElementById('up').style.display = 'block';
-    } else{
-        document.getElementById('up').style.display = 'none';
-    }
+// btn-up
+window.addEventListener('scroll', btnUp)
+
+function btnUp() {
+    const nav = document.getElementById('nav')
+if(window.scrollY > nav.offsetHeight + 2100) {
+    this.document.getElementById('up').style.display = 'block';
+} else {
+    document.getElementById('up').style.display = 'none';
+}
 }

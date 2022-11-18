@@ -20,11 +20,11 @@
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
-    <title>LMR CUSTOMS SRL</title>
+    <title>LMR CUSTOMS - Despachante de Aduana</title>
   </head>
   <body id="header">
     <header>
-      <nav class="menu">
+      <nav id="nav" class="menu">
         <section class="menu_container">
           <div class="menu_logo" data-aos="zoom-out-down">
             <img
@@ -129,27 +129,27 @@
       <section id="company" class="col-lg-12 col-md-12 mb-4 col-12">
         <article class="company alignContent row" data-aos="fade-right">
           <div class="col-lg-6 col-md-6 mb-4 col-12" data-aos="fade-up">
-            <h1>LMR CUSTOMS SRL</h1>
+            <h1>LMR CUSTOMS - Despachante de Aduana</h1>
             <h3>Nuestra empresa</h3>
             <p>
-              <b>LMR CUSTOMS</b>, es una empresa que se dedica a brindar
-              soluciones en comercio exterior, logística y despachos de aduana
-              de importación y exportación. Con un staff joven, capacitado y con
-              dedicación, guiado por su Socio Gerente y Despachante de Aduana,
-              trabaja día a día, para ser el socio estratégico que su empresa
-              necesita para recorrer el proceso de inserción en el Comercio
-              Internacional y lograr el éxito en cada operación. Desde nuestros
-              inicios, nos ocupamos permanentemente en estar perfectamente
-              actualizados respecto a las normativas del mundo Comex, lo que nos
-              permite realizar un asesoramiento de excelente nivel profesional
-              en todo lo relacionado al Comercio Internacional. Nos ubicamos en
-              un punto estratégico, a solo media hora de uno de los puertos más
-              importantes del país como lo es el de Rosario, y los del cordón
-              industrial del Gran Rosario, y contamos con corresponsales en
-              algunas aduanas de frontera, como así también, lasos con
-              Despachantes de Aduana de países limítrofes, pudiendo ofrecer
-              excelentes servicios a costos muy competitivos que se diferencian
-              del resto.
+              <b>LMR CUSTOMS SRL</b>, es una empresa que se dedica a brindar
+              soluciones en <b>comercio exterior</b>, logística y despachos de
+              aduana de importación y exportación. Con un staff joven,
+              capacitado y con dedicación, guiado por su Socio Gerente y
+              Despachante de Aduana, trabaja día a día, para ser el socio
+              estratégico que su empresa necesita para recorrer el proceso de
+              inserción en el Comercio Internacional y lograr el éxito en cada
+              operación. Desde nuestros inicios, nos ocupamos permanentemente en
+              estar perfectamente actualizados respecto a las normativas del
+              mundo Comex, lo que nos permite realizar un asesoramiento de
+              excelente nivel profesional en todo lo relacionado al Comercio
+              Internacional. Nos ubicamos en un punto estratégico, a solo media
+              hora de uno de los puertos más importantes del país como lo es el
+              de Rosario, y los del cordón industrial del Gran Rosario, y
+              contamos con corresponsales en algunas aduanas de frontera, como
+              así también, lasos con <b>Despachantes de Aduana</b> de países
+              limítrofes, pudiendo ofrecer excelentes servicios a costos muy
+              competitivos que se diferencian del resto.
             </p>
           </div>
           <div class="col-lg-6 col-md-6 mb-4 col-12" data-aos="fade-down">
@@ -538,14 +538,14 @@
         class="col-lg-6 col-md-6 mb-4 col-12"
         data-aos="fade-down"
       >
-        <form>
+        <form method="POST" action="php/form.php">
           <!-- Name input -->
           <div class="row mb-4">
             <div class="col">
               <div class="form-outline">
                 <input
                   type="text"
-                  name="form6Example1"
+                  name="name"
                   id="form6Example1"
                   class="form-control"
                 />
@@ -556,7 +556,7 @@
               <div class="form-outline">
                 <input
                   type="text"
-                  name="form6Example2"
+                  name="apellido"
                   id="form6Example2"
                   class="form-control"
                 />
@@ -569,7 +569,7 @@
           <div class="form-outline mb-4">
             <input
               type="text"
-              name="form4Example1"
+              name="asunto"
               id="form4Example1"
               class="form-control"
             />
@@ -580,7 +580,7 @@
           <div class="form-outline mb-4">
             <input
               type="text"
-              name="form4Example2"
+              name="codigo"
               id="form4Example2"
               class="form-control"
             />
@@ -591,7 +591,7 @@
           <div class="form-outline mb-4">
             <input
               type="email"
-              name="form4Example3"
+              name="email"
               id="form4Example3"
               class="form-control"
             />
@@ -601,7 +601,7 @@
           <!-- Message input -->
           <div class="form-outline mb-4">
             <textarea
-              name="form4Example4"
+              name="mensaje"
               class="form-control"
               id="form4Example4"
               rows="4"
